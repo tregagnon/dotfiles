@@ -1,6 +1,6 @@
-# Load ~/.secret, ~/.aliases
-# ~/.secret can be used for settings you don’t want to commit
-for file in ~/.{secret,aliases}; do
+# Load ~/.extra, ~/.aliases
+# ~/.extra can be used for settings you don’t want to commit
+for file in ~/.{extra,aliases}; do
 	[ -r "$file" ] && source "$file"
 done
 unset file
