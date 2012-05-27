@@ -30,6 +30,7 @@ set wildmode=list:longest         " Complete files like a shell.
 
 set writebackup                   " Make a backup just the time of overwriting the file 
 set nobackup                      " Don't keep the backup after writing the file
+set noswapfile                    " Don't create .swap files when editing the file
 set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
 
 set visualbell                    " No beeping.
