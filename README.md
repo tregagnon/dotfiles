@@ -2,6 +2,12 @@
 
 ## Installation
 
+### Prerequisite
+
+* You are on Mac OS X
+* You use [Homebrew](http://brew.sh/)
+* You have installed Git with Homebrew
+
 ### Using Git and the bootstrap script
 
 You can clone the repository wherever you want. (I like to keep it in `~/.dotfiles/) The bootstrapper script will pull in the latest version and copy the files to your home folder.
