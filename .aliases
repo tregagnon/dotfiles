@@ -1,4 +1,4 @@
 # alias to run MacVim with the standard gui command
 alias gvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 
-alias ll='ls -AFGhl'
+alias ll='ls -AFhl'
