@@ -10,7 +10,7 @@
 
 ### Using Git and the bootstrap script
 
-You can clone the repository wherever you want. (I like to keep it in `~/.dotfiles/) The bootstrapper script will pull in the latest version and copy the files to your home folder.
+You can clone the repository wherever you want. (I like to keep it in `~/.dotfiles/) The bootstrapper script will copy the files to your home folder.
 
 ```bash
 git clone http://github.com/tregagnon/dotfiles.git && cd dotfiles && ./bootstrap.sh
