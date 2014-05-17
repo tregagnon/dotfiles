@@ -1,6 +1,6 @@
-# Load ~/.extra, ~/.aliases
+# Load ~/.extra, ~/.bash_prompt, ~/.aliases
 # ~/.extra can be used for settings you don’t want to commit
-for file in ~/.{extra,aliases}; do
+for file in ~/.{extra,bash_prompt,aliases}; do
   [ -r "$file" ] && source "$file"
 done
 unset file
@@ -9,7 +9,6 @@ unset file
 source `brew --prefix`/etc/bash_completion.d/git-completion.bash
 source `brew --prefix`/etc/bash_completion.d/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1 GIT_PS1_SHOWSTASHSTATE=1 GIT_PS1_SHOWUNTRACKEDFILES=1
-export PS1='\u@\h:\W$(__git_ps1 " (%s)")\$ '
 
 # Add Homebrew completion support
 source `brew --repository`/Library/Contributions/brew_bash_completion.sh
