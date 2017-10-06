@@ -1,6 +1,7 @@
 # File used by text editors #
 #############################
 *.swp
+.idea
 
 # Compiled source #
 ###################
