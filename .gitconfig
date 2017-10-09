@@ -9,7 +9,7 @@
 	pushy = push --force-with-lease
 [core]
 	pager = cat
-	editor = subl -w
+	editor = vim
 	autocrlf = input
 	excludesfile = ~/.gitignore_global
 	whitespace = -trailing-space
