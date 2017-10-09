@@ -5,6 +5,8 @@
 	ci = commit
 	co = checkout
 	lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%an %cr)%Creset'
+	commend = commit --amend --no-edit
+	pushy = push --force-with-lease
 [core]
 	pager = cat
 	editor = subl -w
